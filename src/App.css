@@ -1,7 +1,37 @@
+*{
+    background-color: black;
+    color: whitesmoke;
+}
+
 .add-task{
     margin-bottom: 20px;
+    text-align: center;
 }
 
 h1{
-    color: blue;
+    text-align: center;
+    color: darkgrey;
+}
+
+.add-btn{
+    background-color: aliceblue;
+    color: black;
+}
+
+.list{
+    margin-left: 100px;
+}
+
+input[type="text"]{
+    height: 20px;
+    margin-right: 15px;
+    border: 4px darkblue bold;
+}
+
+input[type="button"]{
+    background-color: darkcyan;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
 }

@@ -4,7 +4,7 @@ function AddTask(){
     return(
         <div className="add-task">
             <input type="text" name="" id="" />
-            <input type="button" value="Add" />
+            <input type="button" value="Add" className="add-btn" />
         </div>
     )
 }
