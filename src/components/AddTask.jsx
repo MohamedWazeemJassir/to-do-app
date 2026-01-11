@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 
 function AddTask(props){
@@ -7,11 +6,6 @@ function AddTask(props){
     function handleChange(e){
         const newValue = e.target.value;
         setInputText(newValue);
-    }
-
-    function handleClick(){
-        setInputText(inputText);
-        console.log(inputText);
     }
     
     return(
