@@ -1,6 +1,6 @@
 *{
-    background-color: black;
-    color: whitesmoke;
+    background-color: #DCCDE8;
+    color: #B37BA4;
 }
 
 .add-task{
@@ -10,7 +10,8 @@
 
 h1{
     text-align: center;
-    color: darkgrey;
+    /* color: #00100B; */
+    color: #B37BA4;
 }
 
 .add-btn{
@@ -20,6 +21,9 @@ h1{
 
 .list{
     margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-content: center;
 }
 
 input[type="text"]{
@@ -29,7 +33,7 @@ input[type="text"]{
 }
 
 input[type="button"]{
-    background-color: darkcyan;
+    background-color: #14BDEB;
     color: aliceblue;
     border: none;
     border-radius: 5px;
