@@ -21,6 +21,7 @@ function List(props){
                     setChecked((prev) => !prev)
                 } 
             >{props.task}</label>
+            <img src="src\assets\public\delete.svg" alt="delete-icon" id="delete-icon" />
         </div>
     )
 }
