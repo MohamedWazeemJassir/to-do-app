@@ -10,7 +10,7 @@ function AddTask(props){
         <div className="add-task">
             <input type="text" name="" id="task-input" onChange={handleChange} value={inputText} />
             <input type="button" value="Add" className="add-btn" 
-                onClick={() => {props.onAdd(inputText);setInputText("");}} 
+                onClick={() => {if(inputText!=""){props.onAdd(inputText);setInputText("");}}} 
             />
         </div>
     )
